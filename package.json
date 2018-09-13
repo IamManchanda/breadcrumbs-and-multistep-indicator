@@ -5,7 +5,7 @@
   "author": "Harry Manchanda <harmanmanchanda182@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "styles": "npx sass scss/style.scss css/style.css --watch",
+    "styles": "npx sass scss/style.scss css/style.css --watch --load-path=node_modules/bourbon/core",
     "start": "npx live-server --port=8000 --host=localhost --cors"
   },
   "devDependencies": {
