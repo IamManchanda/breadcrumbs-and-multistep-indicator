@@ -1,0 +1,18 @@
+{
+  "name": "breadcrumbs-and-multistep-indicator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Harry Manchanda <harmanmanchanda182@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "styles": "npx sass scss/style.scss css/style.css --watch",
+    "start": "npx live-server --port=8000 --host=localhost --cors"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "sass": "^1.13.4"
+  },
+  "dependencies": {
+    "bourbon": "^5.1.0"
+  }
+}
